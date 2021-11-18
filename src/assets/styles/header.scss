@@ -1,0 +1,22 @@
+.header-container {
+    z-index: 10;
+    background: transparent;
+    transition: background .5s;
+    position: fixed;
+    width: 100%;
+
+    &:hover {
+        background: #FFF;
+        transition: background .5s;
+    }
+
+    .login-button {
+        border: 1px solid #979797;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -2,6 +2,7 @@
     "users": [
         {
             "id": 1,
+            "UID": 123456,
             "username": "admin",
             "password": "admin",
             "role": 1 
